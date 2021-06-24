@@ -4,8 +4,8 @@ import { UserApi } from '../../apis/apiUser'
 import Nav from '../nav.jsx'
 
 class Register extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
 
     this.state = {
       submitStatus: false,
